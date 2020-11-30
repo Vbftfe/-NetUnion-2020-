@@ -2,7 +2,7 @@ const emailjs = require('emailjs');
 const fs = require('fs');
 const client = new emailjs.SMTPClient({
   user: '13972480029@163.com',
-  password: 'MJHCJWYUGRYUPJPU',
+  password: '填入自己邮箱的授权码',
   host: 'smtp.163.com',
   ssl: true,
 });
